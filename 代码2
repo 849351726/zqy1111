@@ -1,0 +1,8 @@
+package aaa;
+import java.util.*;
+public class wrong extends Exception{
+	public wrong(String s) {
+		System.out.println(s);
+	}
+
+}
