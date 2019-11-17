@@ -55,3 +55,4 @@ System.out.print( ch+ "出现的次数"+sum+"次");
 
 
 
+
