@@ -16,6 +16,36 @@
 3.建立循环每隔7个字加入“，”，14个字加入“。”。
 4.接收输入的字符并统计出该字符出现的次数，若为空格或符号则报错。
 四、流程图
+五、核心代码
+1.加入标点符号
+int all=a.length();
+	  for(int i=all;i>0;i-=7) {
+		if(i%14==0) {
+			a.insert(i,'。');
+			a.insert(i+1, '\n');
+		}
+		else a.insert(i, ',');
+	}
+2.统计次数和报错
+Scanner sc=new Scanner(System.in);
+System.out.println("请输入要查找的字符：");{
+char ch=sc.next().charAt(0);
+if(sc.equals("+")||sc.equals("-")||sc.equals("*")||sc.equals("/")) {
+	throw new wrong("不能输入符号");}
+else if(sc.equals(" ")) {
+	throw new wrong("不能输入空值");
+}
+sc.close();
+
+int j,sum=0;
+
+for(j=0;j < str.length();j++) {
+	if(str.charAt(j)==ch)
+		++sum;
+}
+System.out.print( ch+ "出现的次数"+sum+"次");
+}
+六、运行截图
 
 
 
