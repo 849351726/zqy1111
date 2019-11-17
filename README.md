@@ -16,7 +16,7 @@
 3.建立循环每隔7个字加入“，”，14个字加入“。”。
 4.接收输入的字符并统计出该字符出现的次数，若为空格或符号则报错。
 四、流程图
-![image]()
+![image](https://github.com/849351726/zqy1111/blob/master/123.jpg)
 五、核心代码
 1.加入标点符号
 int all=a.length();
@@ -47,7 +47,7 @@ for(j=0;j < str.length();j++) {
 System.out.print( ch+ "出现的次数"+sum+"次");
 }
 六、运行截图
-
+![image]()
 
 
 
